@@ -30,7 +30,16 @@ nosetests.xml
 # Translations
 *.mo
 
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
+# Fortran
+*.o
+*.mod
+
+# Log files
+*.log
+
+# Data files
+*.data
+
+# Clawpack
+_output/*
+_plots/*
